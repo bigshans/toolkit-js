@@ -1,8 +1,9 @@
 {
   "name": "@bigshans/toolkit-js",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Provide some simple and useful functions for Node development.",
   "main": "dist/index.js",
+  "files": ["dist/*", "dist/**/*"],
   "scripts": {
     "build": "rm -rf ./dist && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
