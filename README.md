@@ -1,4 +1,4 @@
-# toolkit-js (something for test)
+# toolkit-js
 
 ## Introduction
 
