@@ -18,3 +18,7 @@ export function ranger(start: number, end?: number): number[] {
   }
   return [...Array(end - start).keys()].map((i) => i + start);
 }
+
+export const array = {
+  ranger,
+};

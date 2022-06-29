@@ -44,3 +44,8 @@ export function getCurrentScriptPath() {
   Error.prepareStackTrace = orig;
   return stack[2].getFileName();
 }
+
+export const files = {
+  readFileRecursive,
+  getCurrentScriptPath,
+};

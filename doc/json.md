@@ -12,12 +12,3 @@ ptyLog({hello: 'world'});
 }
 */
 ```
-
-## `JSONClone`
-
-```javascript
-const a = { k: 1 };
-const b = JSONClone(a);
-b.k++;
-console.log(a.k !== b.k); // true
-```
